@@ -15,4 +15,4 @@ WORKDIR /miner/xmrig-$XMRIG_VERSION
 
 ADD config.json .
 
-ENTRYPOINT ["./xmrig", "--config=config.json"]
+ENTRYPOINT ["./xmrig", "--config=config.json", "--no-color"]
