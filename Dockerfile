@@ -4,7 +4,7 @@ FROM alpine:latest
 RUN apk add ca-certificates curl tar netcat-openbsd
 
 # get arguments
-ARG XMRIG_VERSION=0
+ARG XMRIG_VERSION=6.15.2
 ENV XMRIG_VERSION=$XMRIG_VERSION
 
 # download & extract miner
